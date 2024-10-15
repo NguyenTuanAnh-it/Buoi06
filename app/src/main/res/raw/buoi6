@@ -1,0 +1,22 @@
+1. Lamda function
+- lợi ích: sử dụng để lắng nghe các sự kiện click, call back thay cho interface
+- lợi ích 2: sử dụng như 1 callback
+
+Ví dụ: khi chúng ta gọi 1 api, mà chúng ta không biết khi nào api gọi xong thì chúng ta
+sẽ dùng 1 call back, để khi api đc gọi xong thì callback sẽ được gọi
+thì chúng ta sẽ nhận được callback đấy
+
+2.Extension function
+- Hàm mở rộng cho 1 đối tượng nào đó: TextView, view, ciewGroup,...
+-Cách viết
+fun tên_đối_tượng.tên_hàm(tham số truyền vào y/n){
+    xử lý
+}
+
+3. Singleton
+- đây là 1 design pattern ( cách thiết kế code để chúng ta dễ đọc, dễ bảo trì)
+
+ví dụ:
+Anh có 1 project, anh tạo 1 biến database để lấy, xóa, sửa dữ liệu
+singleton nghĩa là: biến database đó đc tạo 1 lần trong suốt vòng đời của ứng dụng
+-Mục đích tiết kiệm bộ nhớ, sử dụng khi có dữ liệu lớn tránh tạo nhiều biến

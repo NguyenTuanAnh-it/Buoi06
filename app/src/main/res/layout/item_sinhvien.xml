@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:src="@drawable/ic_sv"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="23dp"
+        android:layout_marginStart="23dp"
+        />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:text="Tên: Võ Hữu Thịnh"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/ivAvatar"
+        app:layout_constraintTop_toTopOf="@id/ivAvatar"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:text="Địa chỉ: Triều Khúc, Thanh Xuân, Hà Nội"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintStart_toStartOf="@id/tvName"
+        android:textColor="#5E5B5B"
+        />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:text="Phone: 0987463562"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvAddress"
+        android:textColor="#5E5B5B"
+        app:layout_constraintStart_toStartOf="@id/tvAddress"
+        />
+    
+    <ImageButton
+        android:id="@+id/ivBin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAddress"
+        android:src="@drawable/ic_bin"
+        android:layout_width="17.63dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="29.37dp"
+        android:background="#FFFFFF"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

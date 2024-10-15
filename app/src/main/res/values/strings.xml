@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Buoi06</string>
+    <string name="text">Cá nhân hóa</string>
+    <string name="descrip">
+        Các thông tin các nhân chính xác giúp chúng tôi mang lại cho bạn những thông tin thú vị chính xác theo đúng thông tin của bạn.
+    </string>
+
+    <string name="kyhieu">*</string>
+    <string name="full_name">Họ tên đầy đủ <font color="#E40000">*</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

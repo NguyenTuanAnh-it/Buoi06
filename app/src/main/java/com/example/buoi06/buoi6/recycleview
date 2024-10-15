@@ -1,0 +1,4 @@
+5.Recycle View
+- để sử dụng được recycleview cần có
++View holder(1 item chung)
++adpater(quản lý data để đẩy vào các item view)

@@ -1,0 +1,44 @@
+1.Khai báo biến
+kiểu 1: Áp dụng cho những biến không thể gán giá trị(Những biến không đổi, biến hằng)
+val ten_bien: <Kiểu dữ liệu> = giá trị
+Kiểu 2: Áp dụng cho những biến muốn gán giá trị, thay đổi
+var ten_bien: <Kiểu dữ liệu> = giá trị mặc định
+-Trong trường hợp khng muốn gán giá trị mc định
+var ten_bien: <Kiểu dữ liệu>? = null
+Ngoài ra có thể khai báo biến var theo cách
+var ten_bien = giá trị mặcdđịnh (tự hiểu kiểu giá trị mặc định của tên biến sẽ giống như kiểu dữ liệu mặc định)
+2.Khai báo hàm
+- Hàm không trả về tham số
+- fun ten_ham() {
+}
+-Hàm trả về giá trị
+fun ten_ham(): <Giá trị trả về> {
+
+}
+
+- Giá trị mặc định của parameter
+ fun ten_ham(parameter: <Kiểu dữ liệu> = giá trị mặc định) {
+ }
+ 3.Kế thừa trong kotlin
+ - Cách viết kiểu kế thừa:
+ class A : B (class A được kế thừa từ class B)
+ +trong trường hợp class B được viết bằng java thì class B phải để public/protected
+ +class B được viết bằng kotlin thì class B phải là open class
+ 4.Các câu điều kiện
+ - if else
+ -for
+ -when (tương tự switch case)
+ +có 2 cách viết kiểu when
+ C1: when(abc){
+
+ }
+-Bài 1: Viết 1 màn hình có 3 ô EditText để nhập số 1 button để tìm nghiệm của ptb2
+-khi bấm button thì Toast ra các nghiệm của phương trình
+-tạo 1 activity để viết bằng kotlin
+
+5.Cách xử lý cộng chuỗi String
+- để cộng 2 chuỗi "abc" + "bcd"
+ví dụ: val a = "abc"
+        val b = "bcd"
+        val c = a + b
+        val d = "$a$b"

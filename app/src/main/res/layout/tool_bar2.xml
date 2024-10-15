@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:layout_marginTop="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCancel"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_centerVertical="true"
+        android:text="Hủy"
+        android:textColor="#007AFF"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/tvContent"
+        android:text="Chỉnh sửa"
+        android:layout_marginStart="8dp"
+        android:textSize="17sp"
+        android:textColor="#111111"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/tvCancel"
+        android:layout_toStartOf="@id/tvAdd"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAdd"
+        android:text="Lưu"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:textColor="#007AFF"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        />
+
+    "
+</RelativeLayout>

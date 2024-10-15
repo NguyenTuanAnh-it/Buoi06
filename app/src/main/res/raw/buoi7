@@ -1,0 +1,14 @@
+1.Activity
+-là tầng trình diễn của ứng dụng giao din của người dùng trên ứng dụng được xây dựng dựa trên 1 hoặc nhiều
+Activity
+2.Truyền dữ liệu giữa caác màn hình
+
+- Giữa các activity với nhau
++ Intent.putExtra(key, value)
++ truyền ngược lại bằng launcher (Từ màn sau back về màn trước)
+-Giữa activity với Fragment, fragment với fragment
+-bundle.putString(key, value)
+-bundle.putParc...(key, value)
+
+-Truyền dữ liệu sử dụng Parcelable và Serializable
++Dùng parcelable vì serializable dùng tốn bộ nhớ và chậm hơn
