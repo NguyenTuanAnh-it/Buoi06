@@ -6,6 +6,9 @@ import androidx.room.PrimaryKey
 //cái này tạo bảng
 @Entity(tableName = "user_profile")
 data class UserProfile (
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "id")
+    val id: Long,
     @ColumnInfo(name = "name")
     val name: String,
     @ColumnInfo(name = "age")
@@ -16,12 +19,7 @@ data class UserProfile (
     val high: String,
     @ColumnInfo(name = "weight")
     val weight: String
-) {
-    @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "id")
-    val id: Long = 0
-}
-
+)
 
 
 
